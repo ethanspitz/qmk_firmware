@@ -33,4 +33,4 @@ SLEEP_LED_ENABLE = no    # Breathing sleep LED during USB suspend
 
 SPLIT_KEYBOARD = yes
 
-DEBOUNCE_TYPE = sym_defer_g
+DEBOUNCE_TYPE = sym_eager_pr
