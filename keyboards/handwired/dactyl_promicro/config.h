@@ -19,12 +19,13 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #pragma once
 
 #include "config_common.h"
-#define PRODUCT         Dactyl Ergo(6x6)
+#define PRODUCT         Ethan Dactyl Ergo(6x6)
 
 /* key matrix size */
 // Rows are doubled-up
 #define MATRIX_ROWS 12
 #define MATRIX_COLS 6
+
 
 // wiring of each half
 #define MATRIX_COL_PINS { B4, B5, B6, B2, B3, B1 }
@@ -58,11 +59,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* Enables This makes it easier for fast typists to use dual-function keys */
 #define PERMISSIVE_HOLD
-
-/* ws2812 RGB LED */
-//#define RGB_DI_PIN D3
-
-//#define RGBLED_NUM 12    // Number of LEDs
 
 /*
  * Feature disable options
